@@ -1,0 +1,281 @@
+/* ここから下に記載していく */
+body{
+    width:100%;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+  }
+
+.field{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items:flex-end
+}
+.headercontent{
+    font-size: 21px;
+    margin: 50px 10px;
+}
+.headerimage{
+    height:100%;
+    width:100%;
+    text-align: left;
+  }
+
+  .Subheader{
+    color: white;
+    position: relative;
+    white-space: nowrap;
+  }
+  .Subheader img{
+    width:100%;
+  }
+  .SubHeaderText1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:48px;
+    font-weight: 400;
+
+  }
+  .SubHeaderText2 {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:32px;
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .About{
+    color:yellow;
+  }
+  .subbody1{
+    padding-bottom: 60px;
+    font-size: 18px;
+  }
+  .subbody{
+    font-size: 16px;
+    padding: 7px;
+  }
+  .subbody40{
+    padding-bottom: 40px;
+  }
+  .subbody30{
+    padding-bottom: 30px;
+  }
+  .subbody70{
+    padding-bottom: 70px;
+  }
+  .slider {
+    width: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .Aboutimg{
+
+  text-align: center;
+  }
+  /* 
+  .slider-Aboutimg {
+    width: 300px;
+    float: left;
+  }
+
+     */
+  .slider-Aboutimg-inner{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .slider-Aboutimg img{
+    width:100%;
+  }
+
+  /*
+  @keyframes slider {
+    0% {
+    transform: translateX(0);
+    }
+    33% {
+    transform: translateX(-300px);
+    }
+    66% {
+    transform: translateX(-600px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+  }
+  */
+  
+  .CourseContents1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .CourseContents1 img{
+    width: 80%;
+  }
+  .CourseContents2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .newsContents{
+    flex-wrap: wrap;
+    align-items: flex-start;
+ 
+  }
+  .CourseContents3{
+    width: 550px;
+  }
+  .CourseContents2 img{
+    width: 80%;
+    margin: auto;
+  
+  }
+  .newscontentsT{
+    text-align: left;
+    padding-top: 10px;
+  }
+  h4{
+    padding-bottom: 60px;
+  }
+  iframe{
+    padding-bottom: 60px;
+    height: 500px;
+  }
+
+  .btn {
+    margin: 60px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-decoration: none;
+    background: rgb(255, 217, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+  }
+  /*ホバー無し状態のスタイル＿ここまで*/
+  /*ホバー有り状態のスタイル*/
+  .btn:hover {
+    background: #fff;
+    color: black;
+    border: solid 4px #f4b364;
+  }
+
+  .Access1{
+    padding-bottom: 30px;
+    display: flex;
+    margin-left: 40%;
+
+
+  }
+  #footer{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 140px;
+    color: #fff;
+  }
+  
+  .ContactFormBody{
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    width: 960px;/*横幅*/
+    margin: 0 auto;/*中央寄せ*/
+    padding: 60px 0;
+
+  }
+  .contact-table {
+    width: 90%;
+    margin-bottom: 20px;
+    border-top: #333;
+    text-align: left;
+  }
+  
+  .contact-item,
+  .contact-body {
+    padding: 2%;
+    border: 1px solid #ccc;
+    width: 70%; /* 横幅70%指定（白背景色部分） */
+  }
+
+  .contact-item {
+    text-align: left; /* テキスト左寄せ */
+    width: 30%; /* 横幅30%指定（グレーの背景色部分） */
+    background-color: #eee; /* グレーの背景色 */
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  }
+
+  .contact-body {
+    width: 65%;
+  }
+
+  .form-text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+  }
+
+  .form-select {
+    width: 75%;
+    height: 40px;
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:25px;
+}
+  .contact-skill {
+    display: block;
+  }
+
+  .contact-skill + .contact-skill {
+    margin-top: 10px;
+  }
+
+  .contact-skill-txt {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .form-textarea {
+    width: 75%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  td {
+    vertical-align: top;
+  }
